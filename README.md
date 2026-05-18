@@ -1,1 +1,1 @@
-# LLM-Based-Polymer-Recipe-Generation-and-Inverse-Design-Assistant
+# CAPSTONE-
