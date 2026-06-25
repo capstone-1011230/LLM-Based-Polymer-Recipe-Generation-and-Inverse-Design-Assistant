@@ -1,0 +1,37 @@
+{
+  "patient_id": "P004",
+  "intake_date": "2026-06-25",
+  "chief_complaint": "I went to a wedding last weekend and ate a lot of sweets. My sugar has been high since then.",
+  "medication_adherence": {
+    "status": "Missed doses this week",
+    "detail": "Patient missed doses this week."
+  },
+  "review_of_systems": {
+    "cardiovascular": "No chest pain",
+    "respiratory": "Mild shortness of breath",
+    "general": "Fatigue"
+  },
+  "lifestyle_factors": {
+    "physical_activity": "Walks 20 min daily",
+    "diet": "Processed food recently",
+    "alcohol": "None",
+    "smoking": "Never"
+  },
+  "family_history": "No significant family history",
+  "patient_concerns": "Worried condition is worsening",
+  "symptom_diary": [
+    {
+      "date": "2026-06-18",
+      "entry": "Symptoms started. I went to a wedding last weekend and ate a lot of sweets. My sugar has been high since then."
+    },
+    {
+      "date": "2026-06-22",
+      "entry": "Symptoms persisting. Took medication but not feeling better."
+    },
+    {
+      "date": "2026-06-24",
+      "entry": "Still not right. Decided to contact clinic."
+    }
+  ],
+  "generated_note": "SIMULATED DATA - NOT REAL PATIENT RECORD"
+}

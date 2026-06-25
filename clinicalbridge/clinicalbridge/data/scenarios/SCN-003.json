@@ -1,0 +1,38 @@
+{
+  "scenario_id": "SCN-003",
+  "title": "The Silent Deterioration",
+  "patient_id": "P006",
+  "description": "Heart failure patient gradual weight gain over 2 weeks. Trend suggests fluid retention.",
+  "triggering_alert": {
+    "alert_type": "WEIGHT_TREND",
+    "measured_values": {
+      "weight_kg": 89.4,
+      "baseline_weight_kg": 83.0,
+      "gain_kg": 6.4,
+      "period_days": 14
+    },
+    "alert_message": "Gradual weight gain 6.4 kg over 14 days."
+  },
+  "key_ehr_facts": [
+    "Heart Failure (I50.9)",
+    "Last BNP 450 pg/mL elevated",
+    "EF 35% on echo",
+    "Furosemide NOT currently prescribed"
+  ],
+  "key_anamnesis_facts": [
+    "Bilateral ankle swelling worsening 2 weeks",
+    "Shortness of breath walking to bathroom",
+    "Sleeping on 2 pillows instead of 1"
+  ],
+  "expected_urgency": "CRITICAL",
+  "gold_standard_brief": {
+    "primary_concern": "High suspicion acute decompensated heart failure with fluid retention.",
+    "recommended_actions": [
+      "Urgent clinical assessment within 24h",
+      "Consider initiating Furosemide",
+      "Order BNP and CXR",
+      "Consider ED if acutely dyspneic"
+    ],
+    "confidence": 0.94
+  }
+}

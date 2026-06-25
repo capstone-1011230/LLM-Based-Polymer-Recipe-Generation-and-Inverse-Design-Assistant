@@ -1,0 +1,444 @@
+{
+  "patient_id": "P005",
+  "readings": [
+    {
+      "timestamp": "2026-06-11T07:32:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 144,
+        "diastolic": 88
+      },
+      "heart_rate_bpm": 61,
+      "spo2_percent": 96
+    },
+    {
+      "timestamp": "2026-06-11T13:54:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 145,
+        "diastolic": 92
+      },
+      "heart_rate_bpm": 86,
+      "spo2_percent": 100
+    },
+    {
+      "timestamp": "2026-06-11T21:46:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 131,
+        "diastolic": 88
+      },
+      "heart_rate_bpm": 72,
+      "spo2_percent": 97
+    },
+    {
+      "timestamp": "2026-06-12T07:26:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 135,
+        "diastolic": 89
+      },
+      "heart_rate_bpm": 70,
+      "spo2_percent": 99
+    },
+    {
+      "timestamp": "2026-06-12T13:46:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 128,
+        "diastolic": 87
+      },
+      "heart_rate_bpm": 71,
+      "spo2_percent": 98
+    },
+    {
+      "timestamp": "2026-06-12T21:42:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 133,
+        "diastolic": 87
+      },
+      "heart_rate_bpm": 88,
+      "spo2_percent": 97
+    },
+    {
+      "timestamp": "2026-06-13T07:43:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 140,
+        "diastolic": 83
+      },
+      "heart_rate_bpm": 60,
+      "spo2_percent": 96
+    },
+    {
+      "timestamp": "2026-06-13T13:05:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 138,
+        "diastolic": 83
+      },
+      "heart_rate_bpm": 81,
+      "spo2_percent": 98
+    },
+    {
+      "timestamp": "2026-06-13T21:51:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 129,
+        "diastolic": 90
+      },
+      "heart_rate_bpm": 59,
+      "spo2_percent": 100
+    },
+    {
+      "timestamp": "2026-06-14T07:35:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 142,
+        "diastolic": 87
+      },
+      "heart_rate_bpm": 79,
+      "spo2_percent": 96
+    },
+    {
+      "timestamp": "2026-06-14T13:26:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 136,
+        "diastolic": 92
+      },
+      "heart_rate_bpm": 88,
+      "spo2_percent": 99
+    },
+    {
+      "timestamp": "2026-06-14T21:55:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 126,
+        "diastolic": 86
+      },
+      "heart_rate_bpm": 77,
+      "spo2_percent": 98
+    },
+    {
+      "timestamp": "2026-06-15T07:22:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 128,
+        "diastolic": 91
+      },
+      "heart_rate_bpm": 74,
+      "spo2_percent": 97
+    },
+    {
+      "timestamp": "2026-06-15T13:09:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 140,
+        "diastolic": 85
+      },
+      "heart_rate_bpm": 85,
+      "spo2_percent": 96
+    },
+    {
+      "timestamp": "2026-06-15T21:22:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 142,
+        "diastolic": 87
+      },
+      "heart_rate_bpm": 61,
+      "spo2_percent": 98
+    },
+    {
+      "timestamp": "2026-06-16T07:36:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 132,
+        "diastolic": 88
+      },
+      "heart_rate_bpm": 85,
+      "spo2_percent": 100
+    },
+    {
+      "timestamp": "2026-06-16T13:49:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 144,
+        "diastolic": 91
+      },
+      "heart_rate_bpm": 79,
+      "spo2_percent": 100
+    },
+    {
+      "timestamp": "2026-06-16T21:01:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 144,
+        "diastolic": 92
+      },
+      "heart_rate_bpm": 84,
+      "spo2_percent": 98
+    },
+    {
+      "timestamp": "2026-06-17T07:01:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 130,
+        "diastolic": 86
+      },
+      "heart_rate_bpm": 80,
+      "spo2_percent": 98
+    },
+    {
+      "timestamp": "2026-06-17T13:58:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 135,
+        "diastolic": 87
+      },
+      "heart_rate_bpm": 58,
+      "spo2_percent": 97
+    },
+    {
+      "timestamp": "2026-06-17T21:55:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 129,
+        "diastolic": 91
+      },
+      "heart_rate_bpm": 79,
+      "spo2_percent": 99
+    },
+    {
+      "timestamp": "2026-06-18T07:04:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 129,
+        "diastolic": 92
+      },
+      "heart_rate_bpm": 58,
+      "spo2_percent": 96
+    },
+    {
+      "timestamp": "2026-06-18T13:47:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 141,
+        "diastolic": 85
+      },
+      "heart_rate_bpm": 70,
+      "spo2_percent": 99
+    },
+    {
+      "timestamp": "2026-06-18T21:29:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 135,
+        "diastolic": 84
+      },
+      "heart_rate_bpm": 69,
+      "spo2_percent": 98
+    },
+    {
+      "timestamp": "2026-06-19T07:46:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 135,
+        "diastolic": 91
+      },
+      "heart_rate_bpm": 77,
+      "spo2_percent": 96
+    },
+    {
+      "timestamp": "2026-06-19T13:56:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 126,
+        "diastolic": 84
+      },
+      "heart_rate_bpm": 63,
+      "spo2_percent": 100
+    },
+    {
+      "timestamp": "2026-06-19T21:03:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 127,
+        "diastolic": 86
+      },
+      "heart_rate_bpm": 72,
+      "spo2_percent": 99
+    },
+    {
+      "timestamp": "2026-06-20T07:31:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 144,
+        "diastolic": 89
+      },
+      "heart_rate_bpm": 71,
+      "spo2_percent": 98
+    },
+    {
+      "timestamp": "2026-06-20T13:13:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 141,
+        "diastolic": 83
+      },
+      "heart_rate_bpm": 69,
+      "spo2_percent": 99
+    },
+    {
+      "timestamp": "2026-06-20T21:07:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 134,
+        "diastolic": 92
+      },
+      "heart_rate_bpm": 79,
+      "spo2_percent": 100
+    },
+    {
+      "timestamp": "2026-06-21T07:31:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 141,
+        "diastolic": 92
+      },
+      "heart_rate_bpm": 67,
+      "spo2_percent": 96
+    },
+    {
+      "timestamp": "2026-06-21T13:14:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 137,
+        "diastolic": 91
+      },
+      "heart_rate_bpm": 59,
+      "spo2_percent": 96
+    },
+    {
+      "timestamp": "2026-06-21T21:13:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 134,
+        "diastolic": 85
+      },
+      "heart_rate_bpm": 82,
+      "spo2_percent": 97
+    },
+    {
+      "timestamp": "2026-06-22T07:48:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 133,
+        "diastolic": 86
+      },
+      "heart_rate_bpm": 68,
+      "spo2_percent": 96
+    },
+    {
+      "timestamp": "2026-06-22T13:00:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 140,
+        "diastolic": 88
+      },
+      "heart_rate_bpm": 63,
+      "spo2_percent": 97
+    },
+    {
+      "timestamp": "2026-06-22T21:24:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 142,
+        "diastolic": 85
+      },
+      "heart_rate_bpm": 74,
+      "spo2_percent": 100
+    },
+    {
+      "timestamp": "2026-06-23T07:53:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 176,
+        "diastolic": 106
+      },
+      "heart_rate_bpm": 60,
+      "spo2_percent": 99
+    },
+    {
+      "timestamp": "2026-06-23T13:55:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 178,
+        "diastolic": 96
+      },
+      "heart_rate_bpm": 71,
+      "spo2_percent": 96
+    },
+    {
+      "timestamp": "2026-06-23T21:29:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 184,
+        "diastolic": 97
+      },
+      "heart_rate_bpm": 85,
+      "spo2_percent": 98
+    },
+    {
+      "timestamp": "2026-06-24T07:36:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 168,
+        "diastolic": 113
+      },
+      "heart_rate_bpm": 70,
+      "spo2_percent": 99
+    },
+    {
+      "timestamp": "2026-06-24T13:18:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 158,
+        "diastolic": 107
+      },
+      "heart_rate_bpm": 58,
+      "spo2_percent": 98
+    },
+    {
+      "timestamp": "2026-06-24T21:10:00",
+      "patient_id": "P005",
+      "blood_pressure": {
+        "systolic": 180,
+        "diastolic": 114
+      },
+      "heart_rate_bpm": 72,
+      "spo2_percent": 98
+    }
+  ],
+  "active_alert": {
+    "alert_id": "ALT-P005",
+    "patient_id": "P005",
+    "timestamp": "2026-06-24T21:10:00",
+    "device_type": "Blood Pressure Monitor",
+    "alert_type": "CRITICAL_BP",
+    "measured_values": {
+      "systolic": 180,
+      "diastolic": 114
+    },
+    "threshold_breached": "Systolic >= 180 mmHg",
+    "patient_baseline": {
+      "systolic": 135,
+      "diastolic": 85
+    },
+    "consecutive_high_readings": 3,
+    "alert_message": "Critical BP 180/114 mmHg detected."
+  },
+  "generated_note": "SIMULATED DATA - NOT REAL PATIENT RECORD"
+}

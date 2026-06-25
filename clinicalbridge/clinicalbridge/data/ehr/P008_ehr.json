@@ -1,0 +1,193 @@
+{
+  "patient_id": "P008",
+  "patient_info": {
+    "name": "Thomas Meier",
+    "age": 83,
+    "sex": "M",
+    "mrn": "MRN-P008-2019",
+    "primary_care_physician": "Dr. Williams"
+  },
+  "problem_list": [
+    {
+      "condition": "Atrial Fibrillation",
+      "icd10": "I48.91",
+      "onset_date": "2025-04-09",
+      "status": "Active",
+      "severity": "Severe"
+    },
+    {
+      "condition": "Heart Failure",
+      "icd10": "I50.9",
+      "onset_date": "2021-12-19",
+      "status": "Active",
+      "severity": "Severe"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Apixaban",
+      "dose": "5mg",
+      "frequency": "Once daily",
+      "prescribed_date": "2025-03-30",
+      "prescribing_physician": "Dr. Nakamura",
+      "status": "Active"
+    },
+    {
+      "name": "Digoxin",
+      "dose": "0.125mg",
+      "frequency": "Once daily",
+      "prescribed_date": "2025-04-01",
+      "prescribing_physician": "Dr. Nakamura",
+      "status": "Active"
+    },
+    {
+      "name": "Carvedilol",
+      "dose": "12.5mg",
+      "frequency": "As needed",
+      "prescribed_date": "2025-01-29",
+      "prescribing_physician": "Dr. Nakamura",
+      "status": "Active"
+    }
+  ],
+  "allergies": [],
+  "lab_results": [
+    {
+      "test": "Potassium",
+      "value": 4.5,
+      "unit": "mEq/L",
+      "date": "2026-06-18",
+      "status": "Normal"
+    },
+    {
+      "test": "Creatinine",
+      "value": 1.88,
+      "unit": "mg/dL",
+      "date": "2026-06-17",
+      "status": "Normal"
+    },
+    {
+      "test": "INR",
+      "value": 1.6,
+      "unit": "ratio",
+      "date": "2026-06-16",
+      "status": "Abnormal"
+    },
+    {
+      "test": "Creatinine",
+      "value": 1.61,
+      "unit": "mg/dL",
+      "date": "2026-05-25",
+      "status": "Normal"
+    },
+    {
+      "test": "INR",
+      "value": 2.6,
+      "unit": "ratio",
+      "date": "2026-05-25",
+      "status": "Normal"
+    },
+    {
+      "test": "Potassium",
+      "value": 3.7,
+      "unit": "mEq/L",
+      "date": "2026-05-21",
+      "status": "Normal"
+    },
+    {
+      "test": "Potassium",
+      "value": 4.2,
+      "unit": "mEq/L",
+      "date": "2026-03-26",
+      "status": "Normal"
+    },
+    {
+      "test": "INR",
+      "value": 3.1,
+      "unit": "ratio",
+      "date": "2026-03-25",
+      "status": "Abnormal"
+    },
+    {
+      "test": "Creatinine",
+      "value": 1.55,
+      "unit": "mg/dL",
+      "date": "2026-03-22",
+      "status": "Normal"
+    }
+  ],
+  "visit_notes": [
+    {
+      "date": "2026-05-25",
+      "provider": "Dr. Nakamura",
+      "type": "Follow-up",
+      "note": "Patient presents for atrial fibrillation follow-up. BP 153/86. Continue current regimen.",
+      "vital_signs": {
+        "bp": "155/90",
+        "hr": 100,
+        "weight_kg": 86.3,
+        "spo2": 97
+      }
+    },
+    {
+      "date": "2025-12-17",
+      "provider": "Dr. Williams",
+      "type": "Urgent Visit",
+      "note": "Patient presents for atrial fibrillation follow-up. BP 178/97. Continue current regimen.",
+      "vital_signs": {
+        "bp": "141/97",
+        "hr": 80,
+        "weight_kg": 97.2,
+        "spo2": 100
+      }
+    },
+    {
+      "date": "2025-12-12",
+      "provider": "Dr. Nakamura",
+      "type": "Urgent Visit",
+      "note": "Patient presents for atrial fibrillation follow-up. BP 132/110. Continue current regimen.",
+      "vital_signs": {
+        "bp": "135/88",
+        "hr": 93,
+        "weight_kg": 76.4,
+        "spo2": 96
+      }
+    },
+    {
+      "date": "2025-10-31",
+      "provider": "Dr. Nakamura",
+      "type": "Follow-up",
+      "note": "Patient presents for atrial fibrillation follow-up. BP 164/102. Continue current regimen.",
+      "vital_signs": {
+        "bp": "151/90",
+        "hr": 88,
+        "weight_kg": 79.2,
+        "spo2": 100
+      }
+    },
+    {
+      "date": "2025-08-25",
+      "provider": "Dr. Patel",
+      "type": "Urgent Visit",
+      "note": "Patient presents for atrial fibrillation follow-up. BP 127/98. Continue current regimen.",
+      "vital_signs": {
+        "bp": "163/97",
+        "hr": 82,
+        "weight_kg": 109.3,
+        "spo2": 97
+      }
+    },
+    {
+      "date": "2025-07-01",
+      "provider": "Dr. Patel",
+      "type": "Follow-up",
+      "note": "Patient presents for atrial fibrillation follow-up. BP 138/81. Continue current regimen.",
+      "vital_signs": {
+        "bp": "138/110",
+        "hr": 103,
+        "weight_kg": 64.3,
+        "spo2": 97
+      }
+    }
+  ],
+  "generated_note": "SIMULATED DATA - NOT REAL PATIENT RECORD"
+}

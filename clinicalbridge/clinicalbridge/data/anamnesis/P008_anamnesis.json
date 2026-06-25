@@ -1,0 +1,37 @@
+{
+  "patient_id": "P008",
+  "intake_date": "2026-06-24",
+  "chief_complaint": "My heart feels like it is fluttering or skipping beats.",
+  "medication_adherence": {
+    "status": "Irregular adherence",
+    "detail": "Patient missed doses this week."
+  },
+  "review_of_systems": {
+    "cardiovascular": "Occasional palpitations",
+    "respiratory": "No cough",
+    "general": "Weight gain of 3 kg in 2 weeks"
+  },
+  "lifestyle_factors": {
+    "physical_activity": "Dog walks twice daily",
+    "diet": "Processed food recently",
+    "alcohol": "None",
+    "smoking": "Former smoker"
+  },
+  "family_history": "No significant family history",
+  "patient_concerns": "Wants to know if ER needed",
+  "symptom_diary": [
+    {
+      "date": "2026-06-18",
+      "entry": "Symptoms started. My heart feels like it is fluttering or skipping beats."
+    },
+    {
+      "date": "2026-06-22",
+      "entry": "Symptoms persisting. Took medication but not feeling better."
+    },
+    {
+      "date": "2026-06-24",
+      "entry": "Still not right. Decided to contact clinic."
+    }
+  ],
+  "generated_note": "SIMULATED DATA - NOT REAL PATIENT RECORD"
+}

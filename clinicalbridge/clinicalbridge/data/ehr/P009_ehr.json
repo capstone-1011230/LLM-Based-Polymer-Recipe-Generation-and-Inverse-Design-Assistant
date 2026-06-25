@@ -1,0 +1,182 @@
+{
+  "patient_id": "P009",
+  "patient_info": {
+    "name": "Linda Osei",
+    "age": 63,
+    "sex": "F",
+    "mrn": "MRN-P009-2019",
+    "primary_care_physician": "Dr. Williams"
+  },
+  "problem_list": [
+    {
+      "condition": "Hypertension",
+      "icd10": "I10",
+      "onset_date": "2016-09-02",
+      "status": "Active",
+      "severity": "Moderate"
+    },
+    {
+      "condition": "Type2 Diabetes",
+      "icd10": "E11.9",
+      "onset_date": "2017-09-03",
+      "status": "Active",
+      "severity": "Severe"
+    },
+    {
+      "condition": "Obesity",
+      "icd10": "E66.9",
+      "onset_date": "2020-11-26",
+      "status": "Active",
+      "severity": "Moderate"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Metformin",
+      "dose": "1000mg",
+      "frequency": "Twice daily",
+      "prescribed_date": "2025-05-06",
+      "prescribing_physician": "Dr. Williams",
+      "status": "Active"
+    },
+    {
+      "name": "Hydrochlorothiazide",
+      "dose": "25mg",
+      "frequency": "As needed",
+      "prescribed_date": "2025-01-27",
+      "prescribing_physician": "Dr. Williams",
+      "status": "Active"
+    },
+    {
+      "name": "Orlistat",
+      "dose": "120mg",
+      "frequency": "Once daily",
+      "prescribed_date": "2025-07-23",
+      "prescribing_physician": "Dr. Nakamura",
+      "status": "Active"
+    }
+  ],
+  "allergies": [
+    {
+      "allergen": "ACE Inhibitors",
+      "reaction": "Persistent cough",
+      "severity": "Mild"
+    }
+  ],
+  "lab_results": [
+    {
+      "test": "Creatinine",
+      "value": 1.1,
+      "unit": "mg/dL",
+      "date": "2026-06-16",
+      "status": "Normal"
+    },
+    {
+      "test": "Potassium",
+      "value": 4.3,
+      "unit": "mEq/L",
+      "date": "2026-06-15",
+      "status": "Normal"
+    },
+    {
+      "test": "HbA1c",
+      "value": 8.4,
+      "unit": "%",
+      "date": "2026-06-13",
+      "status": "Normal"
+    },
+    {
+      "test": "Creatinine",
+      "value": 0.97,
+      "unit": "mg/dL",
+      "date": "2026-05-25",
+      "status": "Normal"
+    },
+    {
+      "test": "Potassium",
+      "value": 4.3,
+      "unit": "mEq/L",
+      "date": "2026-05-24",
+      "status": "Normal"
+    },
+    {
+      "test": "HbA1c",
+      "value": 8.0,
+      "unit": "%",
+      "date": "2026-05-22",
+      "status": "Abnormal"
+    },
+    {
+      "test": "Creatinine",
+      "value": 1.95,
+      "unit": "mg/dL",
+      "date": "2026-03-27",
+      "status": "Normal"
+    },
+    {
+      "test": "Potassium",
+      "value": 4.6,
+      "unit": "mEq/L",
+      "date": "2026-03-24",
+      "status": "Normal"
+    },
+    {
+      "test": "HbA1c",
+      "value": 10.2,
+      "unit": "%",
+      "date": "2026-03-22",
+      "status": "Abnormal"
+    }
+  ],
+  "visit_notes": [
+    {
+      "date": "2026-01-19",
+      "provider": "Dr. Williams",
+      "type": "Urgent Visit",
+      "note": "Patient presents for hypertension follow-up. BP 144/101. Continue current regimen.",
+      "vital_signs": {
+        "bp": "158/99",
+        "hr": 60,
+        "weight_kg": 108.0,
+        "spo2": 95
+      }
+    },
+    {
+      "date": "2026-01-16",
+      "provider": "Dr. Williams",
+      "type": "Urgent Visit",
+      "note": "Patient presents for hypertension follow-up. BP 161/82. Continue current regimen.",
+      "vital_signs": {
+        "bp": "179/94",
+        "hr": 81,
+        "weight_kg": 65.1,
+        "spo2": 99
+      }
+    },
+    {
+      "date": "2025-12-06",
+      "provider": "Dr. Patel",
+      "type": "Follow-up",
+      "note": "Patient presents for hypertension follow-up. BP 175/109. Continue current regimen.",
+      "vital_signs": {
+        "bp": "141/89",
+        "hr": 58,
+        "weight_kg": 71.6,
+        "spo2": 95
+      }
+    },
+    {
+      "date": "2025-10-31",
+      "provider": "Dr. Williams",
+      "type": "Annual Review",
+      "note": "Patient presents for hypertension follow-up. BP 146/110. Continue current regimen.",
+      "vital_signs": {
+        "bp": "146/97",
+        "hr": 91,
+        "weight_kg": 67.4,
+        "spo2": 95
+      }
+    }
+  ],
+  "generated_note": "SIMULATED DATA - NOT REAL PATIENT RECORD"
+}

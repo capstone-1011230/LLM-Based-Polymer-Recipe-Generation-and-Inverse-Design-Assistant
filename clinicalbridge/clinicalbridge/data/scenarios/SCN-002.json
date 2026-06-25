@@ -1,0 +1,33 @@
+{
+  "scenario_id": "SCN-002",
+  "title": "The False Alarm",
+  "patient_id": "P002",
+  "description": "Diabetic patient glucose alert. Anamnesis reveals planned dietary change - alert is benign.",
+  "triggering_alert": {
+    "alert_type": "HIGH_GLUCOSE",
+    "measured_values": {
+      "glucose_mg_dl": 267
+    },
+    "alert_message": "High glucose 267 mg/dL detected."
+  },
+  "key_ehr_facts": [
+    "Type 2 Diabetes (E11.9)",
+    "Metformin increased 5 days ago",
+    "Physician note: expect transient glucose fluctuation during titration"
+  ],
+  "key_anamnesis_facts": [
+    "Patient attended celebration dinner last night",
+    "Confirms full medication adherence",
+    "Fasting glucose this morning was 142 mg/dL"
+  ],
+  "expected_urgency": "ROUTINE",
+  "gold_standard_brief": {
+    "primary_concern": "Post-prandial glucose spike attributable to dietary deviation during medication titration. Likely benign.",
+    "recommended_actions": [
+      "No immediate intervention",
+      "Monitor next 3 fasting readings",
+      "Reinforce dietary counseling"
+    ],
+    "confidence": 0.87
+  }
+}

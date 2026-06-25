@@ -1,0 +1,35 @@
+{
+  "scenario_id": "SCN-005",
+  "title": "The Conflicting Data",
+  "patient_id": "P003",
+  "description": "Patient reports full adherence but lab results show sub-therapeutic drug levels.",
+  "triggering_alert": {
+    "alert_type": "LOW_SPO2",
+    "measured_values": {
+      "spo2": 93
+    },
+    "alert_message": "SpO2 93% in atrial fibrillation patient on anticoagulation."
+  },
+  "key_ehr_facts": [
+    "Atrial Fibrillation (I48.91)",
+    "Warfarin 5mg daily",
+    "Last INR: 1.4 (sub-therapeutic, target 2.0-3.0)",
+    "Digoxin level: 0.6 ng/mL (sub-therapeutic)"
+  ],
+  "key_anamnesis_facts": [
+    "Patient insists she takes ALL medications exactly as prescribed",
+    "Denies any missed doses",
+    "Reports new fatigue and mild shortness of breath for 1 week"
+  ],
+  "expected_urgency": "URGENT",
+  "gold_standard_brief": {
+    "primary_concern": "Clinically significant discrepancy between reported adherence and sub-therapeutic drug levels. Elevated stroke risk.",
+    "recommended_actions": [
+      "Urgent INR recheck",
+      "Assess SpO2 for respiratory cause",
+      "Investigate INR drop non-accusatorily",
+      "Cardiology consultation"
+    ],
+    "confidence": 0.83
+  }
+}

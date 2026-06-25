@@ -1,0 +1,37 @@
+{
+  "patient_id": "P006",
+  "intake_date": "2026-06-25",
+  "chief_complaint": "I get out of breath just walking to the kitchen.",
+  "medication_adherence": {
+    "status": "Stopped one medication",
+    "detail": "Patient stopped Lisinopril 10 days ago due to persistent cough."
+  },
+  "review_of_systems": {
+    "cardiovascular": "No chest pain",
+    "respiratory": "Persistent dry cough",
+    "general": "Weight gain of 3 kg in 2 weeks"
+  },
+  "lifestyle_factors": {
+    "physical_activity": "No exercise",
+    "diet": "High salt, daughter cooks",
+    "alcohol": "None",
+    "smoking": "Never"
+  },
+  "family_history": "Father had heart attack at 65",
+  "patient_concerns": "Does not want more medications",
+  "symptom_diary": [
+    {
+      "date": "2026-06-18",
+      "entry": "Symptoms started. I get out of breath just walking to the kitchen."
+    },
+    {
+      "date": "2026-06-22",
+      "entry": "Symptoms persisting. Took medication but not feeling better."
+    },
+    {
+      "date": "2026-06-24",
+      "entry": "Still not right. Decided to contact clinic."
+    }
+  ],
+  "generated_note": "SIMULATED DATA - NOT REAL PATIENT RECORD"
+}

@@ -1,0 +1,181 @@
+{
+  "patient_id": "P002",
+  "patient_info": {
+    "name": "Robert Chen",
+    "age": 54,
+    "sex": "M",
+    "mrn": "MRN-P002-2019",
+    "primary_care_physician": "Dr. Williams"
+  },
+  "problem_list": [
+    {
+      "condition": "Type2 Diabetes",
+      "icd10": "E11.9",
+      "onset_date": "2017-12-21",
+      "status": "Active",
+      "severity": "Moderate"
+    },
+    {
+      "condition": "Hypertension",
+      "icd10": "I10",
+      "onset_date": "2022-10-22",
+      "status": "Active",
+      "severity": "Moderate"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Metformin",
+      "dose": "1000mg",
+      "frequency": "Twice daily",
+      "prescribed_date": "2026-01-12",
+      "prescribing_physician": "Dr. Nakamura",
+      "status": "Active"
+    },
+    {
+      "name": "Amlodipine",
+      "dose": "5mg",
+      "frequency": "As needed",
+      "prescribed_date": "2025-07-23",
+      "prescribing_physician": "Dr. Patel",
+      "status": "Active"
+    },
+    {
+      "name": "Atorvastatin",
+      "dose": "40mg",
+      "frequency": "Twice daily",
+      "prescribed_date": "2026-03-13",
+      "prescribing_physician": "Dr. Williams",
+      "status": "Active"
+    }
+  ],
+  "allergies": [],
+  "lab_results": [
+    {
+      "test": "HbA1c",
+      "value": 6.6,
+      "unit": "%",
+      "date": "2026-06-16",
+      "status": "Abnormal"
+    },
+    {
+      "test": "Potassium",
+      "value": 4.9,
+      "unit": "mEq/L",
+      "date": "2026-06-14",
+      "status": "Normal"
+    },
+    {
+      "test": "Creatinine",
+      "value": 0.85,
+      "unit": "mg/dL",
+      "date": "2026-06-13",
+      "status": "Normal"
+    },
+    {
+      "test": "Creatinine",
+      "value": 1.53,
+      "unit": "mg/dL",
+      "date": "2026-05-24",
+      "status": "Normal"
+    },
+    {
+      "test": "Potassium",
+      "value": 3.7,
+      "unit": "mEq/L",
+      "date": "2026-05-23",
+      "status": "Normal"
+    },
+    {
+      "test": "HbA1c",
+      "value": 8.7,
+      "unit": "%",
+      "date": "2026-05-23",
+      "status": "Abnormal"
+    },
+    {
+      "test": "Potassium",
+      "value": 4.1,
+      "unit": "mEq/L",
+      "date": "2026-03-25",
+      "status": "Normal"
+    },
+    {
+      "test": "HbA1c",
+      "value": 6.7,
+      "unit": "%",
+      "date": "2026-03-25",
+      "status": "Abnormal"
+    },
+    {
+      "test": "Creatinine",
+      "value": 0.77,
+      "unit": "mg/dL",
+      "date": "2026-03-22",
+      "status": "Normal"
+    }
+  ],
+  "visit_notes": [
+    {
+      "date": "2026-04-21",
+      "provider": "Dr. Williams",
+      "type": "Urgent Visit",
+      "note": "Patient presents for type2 diabetes follow-up. BP 138/85. Continue current regimen.",
+      "vital_signs": {
+        "bp": "148/106",
+        "hr": 92,
+        "weight_kg": 98.7,
+        "spo2": 98
+      }
+    },
+    {
+      "date": "2025-11-30",
+      "provider": "Dr. Williams",
+      "type": "Annual Review",
+      "note": "Patient presents for type2 diabetes follow-up. BP 160/107. Continue current regimen.",
+      "vital_signs": {
+        "bp": "136/96",
+        "hr": 89,
+        "weight_kg": 73.8,
+        "spo2": 100
+      }
+    },
+    {
+      "date": "2025-11-12",
+      "provider": "Dr. Williams",
+      "type": "Follow-up",
+      "note": "Patient presents for type2 diabetes follow-up. BP 167/97. Continue current regimen.",
+      "vital_signs": {
+        "bp": "129/88",
+        "hr": 76,
+        "weight_kg": 93.3,
+        "spo2": 99
+      }
+    },
+    {
+      "date": "2025-08-11",
+      "provider": "Dr. Nakamura",
+      "type": "Follow-up",
+      "note": "Patient presents for type2 diabetes follow-up. BP 124/97. Continue current regimen.",
+      "vital_signs": {
+        "bp": "133/96",
+        "hr": 74,
+        "weight_kg": 67.3,
+        "spo2": 96
+      }
+    },
+    {
+      "date": "2025-07-30",
+      "provider": "Dr. Williams",
+      "type": "Annual Review",
+      "note": "Patient presents for type2 diabetes follow-up. BP 172/97. Continue current regimen.",
+      "vital_signs": {
+        "bp": "139/109",
+        "hr": 100,
+        "weight_kg": 65.7,
+        "spo2": 95
+      }
+    }
+  ],
+  "generated_note": "SIMULATED DATA - NOT REAL PATIENT RECORD"
+}

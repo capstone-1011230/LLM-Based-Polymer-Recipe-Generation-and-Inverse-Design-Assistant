@@ -1,0 +1,84 @@
+[
+  {
+    "id": "P001",
+    "name": "Margaret Sullivan",
+    "conditions": [
+      "hypertension",
+      "heart_failure"
+    ]
+  },
+  {
+    "id": "P002",
+    "name": "Robert Chen",
+    "conditions": [
+      "type2_diabetes",
+      "hypertension"
+    ]
+  },
+  {
+    "id": "P003",
+    "name": "Eleanor Vasquez",
+    "conditions": [
+      "heart_failure",
+      "atrial_fibrillation"
+    ]
+  },
+  {
+    "id": "P004",
+    "name": "James Okonkwo",
+    "conditions": [
+      "type2_diabetes",
+      "chronic_kidney_disease"
+    ]
+  },
+  {
+    "id": "P005",
+    "name": "Patricia Novak",
+    "conditions": [
+      "hypertension",
+      "asthma"
+    ]
+  },
+  {
+    "id": "P006",
+    "name": "David Fitzgerald",
+    "conditions": [
+      "heart_failure",
+      "type2_diabetes",
+      "hypertension"
+    ]
+  },
+  {
+    "id": "P007",
+    "name": "Susan Park",
+    "conditions": [
+      "type1_diabetes",
+      "hypertension"
+    ]
+  },
+  {
+    "id": "P008",
+    "name": "Thomas Meier",
+    "conditions": [
+      "atrial_fibrillation",
+      "heart_failure"
+    ]
+  },
+  {
+    "id": "P009",
+    "name": "Linda Osei",
+    "conditions": [
+      "hypertension",
+      "type2_diabetes",
+      "obesity"
+    ]
+  },
+  {
+    "id": "P010",
+    "name": "Carlos Rivera",
+    "conditions": [
+      "hypertension",
+      "anxiety_disorder"
+    ]
+  }
+]

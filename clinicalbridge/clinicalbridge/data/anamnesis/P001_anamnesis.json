@@ -1,0 +1,37 @@
+{
+  "patient_id": "P001",
+  "intake_date": "2026-06-25",
+  "chief_complaint": "I stopped taking my blood pressure pill about 10 days ago because it was making me cough all the time.",
+  "medication_adherence": {
+    "status": "Irregular adherence",
+    "detail": "Patient missed doses this week."
+  },
+  "review_of_systems": {
+    "cardiovascular": "Mild chest tightness",
+    "respiratory": "No cough",
+    "general": "Weight gain of 3 kg in 2 weeks"
+  },
+  "lifestyle_factors": {
+    "physical_activity": "Dog walks twice daily",
+    "diet": "Low salt diet",
+    "alcohol": "None",
+    "smoking": "Former smoker"
+  },
+  "family_history": "No significant family history",
+  "patient_concerns": "Does not want more medications",
+  "symptom_diary": [
+    {
+      "date": "2026-06-18",
+      "entry": "Symptoms started. I stopped taking my blood pressure pill about 10 days ago because it was making me cough all the time."
+    },
+    {
+      "date": "2026-06-22",
+      "entry": "Symptoms persisting. Took medication but not feeling better."
+    },
+    {
+      "date": "2026-06-24",
+      "entry": "Still not right. Decided to contact clinic."
+    }
+  ],
+  "generated_note": "SIMULATED DATA - NOT REAL PATIENT RECORD"
+}

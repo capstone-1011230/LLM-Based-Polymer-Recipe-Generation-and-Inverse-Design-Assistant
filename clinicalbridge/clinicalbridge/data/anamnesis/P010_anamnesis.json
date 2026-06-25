@@ -1,0 +1,37 @@
+{
+  "patient_id": "P010",
+  "intake_date": "2026-06-24",
+  "chief_complaint": "I have been having morning headaches for the past week.",
+  "medication_adherence": {
+    "status": "Missed doses this week",
+    "detail": "Patient missed doses this week."
+  },
+  "review_of_systems": {
+    "cardiovascular": "No chest pain",
+    "respiratory": "Mild shortness of breath",
+    "general": "Weight gain of 3 kg in 2 weeks"
+  },
+  "lifestyle_factors": {
+    "physical_activity": "Dog walks twice daily",
+    "diet": "High salt, daughter cooks",
+    "alcohol": "None",
+    "smoking": "Never"
+  },
+  "family_history": "Mother had stroke at 70",
+  "patient_concerns": "Does not want more medications",
+  "symptom_diary": [
+    {
+      "date": "2026-06-18",
+      "entry": "Symptoms started. I have been having morning headaches for the past week."
+    },
+    {
+      "date": "2026-06-22",
+      "entry": "Symptoms persisting. Took medication but not feeling better."
+    },
+    {
+      "date": "2026-06-24",
+      "entry": "Still not right. Decided to contact clinic."
+    }
+  ],
+  "generated_note": "SIMULATED DATA - NOT REAL PATIENT RECORD"
+}

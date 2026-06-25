@@ -1,0 +1,37 @@
+{
+  "patient_id": "P005",
+  "intake_date": "2026-06-25",
+  "chief_complaint": "I have been having morning headaches for the past week.",
+  "medication_adherence": {
+    "status": "Full adherence",
+    "detail": "Patient missed doses this week."
+  },
+  "review_of_systems": {
+    "cardiovascular": "Occasional palpitations",
+    "respiratory": "Persistent dry cough",
+    "general": "Feeling well"
+  },
+  "lifestyle_factors": {
+    "physical_activity": "Dog walks twice daily",
+    "diet": "Low salt diet",
+    "alcohol": "Occasional",
+    "smoking": "Former smoker"
+  },
+  "family_history": "No significant family history",
+  "patient_concerns": "Wants to know if ER needed",
+  "symptom_diary": [
+    {
+      "date": "2026-06-18",
+      "entry": "Symptoms started. I have been having morning headaches for the past week."
+    },
+    {
+      "date": "2026-06-22",
+      "entry": "Symptoms persisting. Took medication but not feeling better."
+    },
+    {
+      "date": "2026-06-24",
+      "entry": "Still not right. Decided to contact clinic."
+    }
+  ],
+  "generated_note": "SIMULATED DATA - NOT REAL PATIENT RECORD"
+}

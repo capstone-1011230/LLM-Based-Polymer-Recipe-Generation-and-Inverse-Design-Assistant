@@ -1,0 +1,164 @@
+{
+  "patient_id": "P010",
+  "patient_info": {
+    "name": "Carlos Rivera",
+    "age": 50,
+    "sex": "M",
+    "mrn": "MRN-P010-2019",
+    "primary_care_physician": "Dr. Nakamura"
+  },
+  "problem_list": [
+    {
+      "condition": "Hypertension",
+      "icd10": "I10",
+      "onset_date": "2022-02-14",
+      "status": "Active",
+      "severity": "Severe"
+    },
+    {
+      "condition": "Anxiety Disorder",
+      "icd10": "F41.1",
+      "onset_date": "2016-09-15",
+      "status": "Active",
+      "severity": "Mild"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Ramipril",
+      "dose": "5mg",
+      "frequency": "Twice daily",
+      "prescribed_date": "2025-09-11",
+      "prescribing_physician": "Dr. Williams",
+      "status": "Active"
+    },
+    {
+      "name": "Sertraline",
+      "dose": "50mg",
+      "frequency": "As needed",
+      "prescribed_date": "2024-08-24",
+      "prescribing_physician": "Dr. Patel",
+      "status": "Active"
+    }
+  ],
+  "allergies": [],
+  "lab_results": [
+    {
+      "test": "Creatinine",
+      "value": 1.03,
+      "unit": "mg/dL",
+      "date": "2026-06-17",
+      "status": "Normal"
+    },
+    {
+      "test": "Potassium",
+      "value": 4.6,
+      "unit": "mEq/L",
+      "date": "2026-06-15",
+      "status": "Normal"
+    },
+    {
+      "test": "Creatinine",
+      "value": 1.57,
+      "unit": "mg/dL",
+      "date": "2026-05-25",
+      "status": "Normal"
+    },
+    {
+      "test": "Potassium",
+      "value": 4.5,
+      "unit": "mEq/L",
+      "date": "2026-05-25",
+      "status": "Normal"
+    },
+    {
+      "test": "Potassium",
+      "value": 3.6,
+      "unit": "mEq/L",
+      "date": "2026-03-24",
+      "status": "Normal"
+    },
+    {
+      "test": "Creatinine",
+      "value": 1.08,
+      "unit": "mg/dL",
+      "date": "2026-03-22",
+      "status": "Normal"
+    }
+  ],
+  "visit_notes": [
+    {
+      "date": "2025-12-11",
+      "provider": "Dr. Nakamura",
+      "type": "Annual Review",
+      "note": "Patient presents for hypertension follow-up. BP 121/110. Continue current regimen.",
+      "vital_signs": {
+        "bp": "166/94",
+        "hr": 103,
+        "weight_kg": 71.5,
+        "spo2": 100
+      }
+    },
+    {
+      "date": "2025-11-24",
+      "provider": "Dr. Patel",
+      "type": "Annual Review",
+      "note": "Patient presents for hypertension follow-up. BP 180/102. Continue current regimen.",
+      "vital_signs": {
+        "bp": "132/95",
+        "hr": 78,
+        "weight_kg": 69.8,
+        "spo2": 97
+      }
+    },
+    {
+      "date": "2025-11-21",
+      "provider": "Dr. Patel",
+      "type": "Urgent Visit",
+      "note": "Patient presents for hypertension follow-up. BP 143/83. Continue current regimen.",
+      "vital_signs": {
+        "bp": "179/98",
+        "hr": 70,
+        "weight_kg": 92.6,
+        "spo2": 98
+      }
+    },
+    {
+      "date": "2025-11-13",
+      "provider": "Dr. Patel",
+      "type": "Urgent Visit",
+      "note": "Patient presents for hypertension follow-up. BP 141/93. Continue current regimen.",
+      "vital_signs": {
+        "bp": "172/106",
+        "hr": 99,
+        "weight_kg": 113.6,
+        "spo2": 95
+      }
+    },
+    {
+      "date": "2025-10-15",
+      "provider": "Dr. Patel",
+      "type": "Annual Review",
+      "note": "Patient presents for hypertension follow-up. BP 164/100. Continue current regimen.",
+      "vital_signs": {
+        "bp": "151/110",
+        "hr": 94,
+        "weight_kg": 103.0,
+        "spo2": 96
+      }
+    },
+    {
+      "date": "2025-08-14",
+      "provider": "Dr. Williams",
+      "type": "Urgent Visit",
+      "note": "Patient presents for hypertension follow-up. BP 126/84. Continue current regimen.",
+      "vital_signs": {
+        "bp": "139/80",
+        "hr": 83,
+        "weight_kg": 78.3,
+        "spo2": 98
+      }
+    }
+  ],
+  "generated_note": "SIMULATED DATA - NOT REAL PATIENT RECORD"
+}

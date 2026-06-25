@@ -1,0 +1,37 @@
+{
+  "patient_id": "P003",
+  "intake_date": "2026-06-24",
+  "chief_complaint": "I get out of breath just walking to the kitchen.",
+  "medication_adherence": {
+    "status": "Full adherence",
+    "detail": "Patient missed doses this week."
+  },
+  "review_of_systems": {
+    "cardiovascular": "Occasional palpitations",
+    "respiratory": "No cough",
+    "general": "Fatigue"
+  },
+  "lifestyle_factors": {
+    "physical_activity": "Dog walks twice daily",
+    "diet": "High salt, daughter cooks",
+    "alcohol": "Occasional",
+    "smoking": "Former smoker"
+  },
+  "family_history": "Father had heart attack at 65",
+  "patient_concerns": "Worried condition is worsening",
+  "symptom_diary": [
+    {
+      "date": "2026-06-18",
+      "entry": "Symptoms started. I get out of breath just walking to the kitchen."
+    },
+    {
+      "date": "2026-06-22",
+      "entry": "Symptoms persisting. Took medication but not feeling better."
+    },
+    {
+      "date": "2026-06-24",
+      "entry": "Still not right. Decided to contact clinic."
+    }
+  ],
+  "generated_note": "SIMULATED DATA - NOT REAL PATIENT RECORD"
+}

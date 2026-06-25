@@ -1,0 +1,200 @@
+{
+  "patient_id": "P006",
+  "patient_info": {
+    "name": "David Fitzgerald",
+    "age": 77,
+    "sex": "M",
+    "mrn": "MRN-P006-2019",
+    "primary_care_physician": "Dr. Nakamura"
+  },
+  "problem_list": [
+    {
+      "condition": "Heart Failure",
+      "icd10": "I50.9",
+      "onset_date": "2024-08-17",
+      "status": "Active",
+      "severity": "Mild"
+    },
+    {
+      "condition": "Type2 Diabetes",
+      "icd10": "E11.9",
+      "onset_date": "2019-07-14",
+      "status": "Active",
+      "severity": "Moderate"
+    },
+    {
+      "condition": "Hypertension",
+      "icd10": "I10",
+      "onset_date": "2016-10-11",
+      "status": "Active",
+      "severity": "Moderate"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Bisoprolol",
+      "dose": "5mg",
+      "frequency": "Twice daily",
+      "prescribed_date": "2024-08-04",
+      "prescribing_physician": "Dr. Williams",
+      "status": "Active"
+    },
+    {
+      "name": "Empagliflozin",
+      "dose": "10mg",
+      "frequency": "Once daily",
+      "prescribed_date": "2026-02-10",
+      "prescribing_physician": "Dr. Williams",
+      "status": "Active"
+    },
+    {
+      "name": "Ramipril",
+      "dose": "5mg",
+      "frequency": "Twice daily",
+      "prescribed_date": "2025-11-05",
+      "prescribing_physician": "Dr. Williams",
+      "status": "Active"
+    }
+  ],
+  "allergies": [],
+  "lab_results": [
+    {
+      "test": "Creatinine",
+      "value": 1.49,
+      "unit": "mg/dL",
+      "date": "2026-06-16",
+      "status": "Normal"
+    },
+    {
+      "test": "Potassium",
+      "value": 4.1,
+      "unit": "mEq/L",
+      "date": "2026-06-16",
+      "status": "Normal"
+    },
+    {
+      "test": "HbA1c",
+      "value": 8.0,
+      "unit": "%",
+      "date": "2026-06-16",
+      "status": "Abnormal"
+    },
+    {
+      "test": "Potassium",
+      "value": 3.8,
+      "unit": "mEq/L",
+      "date": "2026-05-25",
+      "status": "Normal"
+    },
+    {
+      "test": "HbA1c",
+      "value": 9.3,
+      "unit": "%",
+      "date": "2026-05-23",
+      "status": "Abnormal"
+    },
+    {
+      "test": "Creatinine",
+      "value": 0.81,
+      "unit": "mg/dL",
+      "date": "2026-05-21",
+      "status": "Normal"
+    },
+    {
+      "test": "Potassium",
+      "value": 3.7,
+      "unit": "mEq/L",
+      "date": "2026-03-27",
+      "status": "Normal"
+    },
+    {
+      "test": "HbA1c",
+      "value": 8.3,
+      "unit": "%",
+      "date": "2026-03-25",
+      "status": "Abnormal"
+    },
+    {
+      "test": "Creatinine",
+      "value": 1.49,
+      "unit": "mg/dL",
+      "date": "2026-03-23",
+      "status": "Normal"
+    }
+  ],
+  "visit_notes": [
+    {
+      "date": "2026-04-08",
+      "provider": "Dr. Nakamura",
+      "type": "Follow-up",
+      "note": "Patient presents for heart failure follow-up. BP 131/110. Continue current regimen.",
+      "vital_signs": {
+        "bp": "169/100",
+        "hr": 89,
+        "weight_kg": 85.5,
+        "spo2": 98
+      }
+    },
+    {
+      "date": "2026-02-27",
+      "provider": "Dr. Patel",
+      "type": "Annual Review",
+      "note": "Patient presents for heart failure follow-up. BP 124/89. Continue current regimen.",
+      "vital_signs": {
+        "bp": "149/94",
+        "hr": 60,
+        "weight_kg": 63.1,
+        "spo2": 100
+      }
+    },
+    {
+      "date": "2025-12-14",
+      "provider": "Dr. Williams",
+      "type": "Annual Review",
+      "note": "Patient presents for heart failure follow-up. BP 175/107. Continue current regimen.",
+      "vital_signs": {
+        "bp": "125/99",
+        "hr": 96,
+        "weight_kg": 87.9,
+        "spo2": 97
+      }
+    },
+    {
+      "date": "2025-11-16",
+      "provider": "Dr. Williams",
+      "type": "Urgent Visit",
+      "note": "Patient presents for heart failure follow-up. BP 124/95. Continue current regimen.",
+      "vital_signs": {
+        "bp": "148/100",
+        "hr": 77,
+        "weight_kg": 103.8,
+        "spo2": 98
+      }
+    },
+    {
+      "date": "2025-08-31",
+      "provider": "Dr. Nakamura",
+      "type": "Annual Review",
+      "note": "Patient presents for heart failure follow-up. BP 177/81. Continue current regimen.",
+      "vital_signs": {
+        "bp": "148/109",
+        "hr": 94,
+        "weight_kg": 95.9,
+        "spo2": 96
+      }
+    },
+    {
+      "date": "2025-08-03",
+      "provider": "Dr. Patel",
+      "type": "Annual Review",
+      "note": "Patient presents for heart failure follow-up. BP 179/108. Continue current regimen.",
+      "vital_signs": {
+        "bp": "156/100",
+        "hr": 98,
+        "weight_kg": 114.3,
+        "spo2": 96
+      }
+    }
+  ],
+  "generated_note": "SIMULATED DATA - NOT REAL PATIENT RECORD"
+}

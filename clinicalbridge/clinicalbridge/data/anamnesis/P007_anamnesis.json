@@ -1,0 +1,37 @@
+{
+  "patient_id": "P007",
+  "intake_date": "2026-06-24",
+  "chief_complaint": "I have not been feeling well recently.",
+  "medication_adherence": {
+    "status": "Full adherence",
+    "detail": "Patient missed doses this week."
+  },
+  "review_of_systems": {
+    "cardiovascular": "No chest pain",
+    "respiratory": "Persistent dry cough",
+    "general": "Weight gain of 3 kg in 2 weeks"
+  },
+  "lifestyle_factors": {
+    "physical_activity": "Dog walks twice daily",
+    "diet": "Processed food recently",
+    "alcohol": "Occasional",
+    "smoking": "Never"
+  },
+  "family_history": "No significant family history",
+  "patient_concerns": "Worried condition is worsening",
+  "symptom_diary": [
+    {
+      "date": "2026-06-18",
+      "entry": "Symptoms started. I have not been feeling well recently."
+    },
+    {
+      "date": "2026-06-22",
+      "entry": "Symptoms persisting. Took medication but not feeling better."
+    },
+    {
+      "date": "2026-06-24",
+      "entry": "Still not right. Decided to contact clinic."
+    }
+  ],
+  "generated_note": "SIMULATED DATA - NOT REAL PATIENT RECORD"
+}

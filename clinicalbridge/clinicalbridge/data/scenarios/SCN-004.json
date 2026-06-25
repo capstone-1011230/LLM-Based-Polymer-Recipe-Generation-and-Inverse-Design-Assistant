@@ -1,0 +1,34 @@
+{
+  "scenario_id": "SCN-004",
+  "title": "The Incomplete Record",
+  "patient_id": "P010",
+  "description": "Transferred patient. EHR sparse. System must rely on anamnesis and flag gaps.",
+  "triggering_alert": {
+    "alert_type": "CRITICAL_BP",
+    "measured_values": {
+      "systolic": 168,
+      "diastolic": 102
+    },
+    "alert_message": "Critical BP 168/102 mmHg in recently registered patient."
+  },
+  "key_ehr_facts": [
+    "EHR imported from external system - HIGH INCOMPLETENESS",
+    "Only available: Name, DOB, one medication (Ramipril 5mg)",
+    "No lab results, no visit notes"
+  ],
+  "key_anamnesis_facts": [
+    "Patient self-reports hypertension for 8 years",
+    "Also reports anxiety disorder on sertraline",
+    "Reports Ramipril causes dizziness - considering stopping"
+  ],
+  "expected_urgency": "URGENT",
+  "gold_standard_brief": {
+    "primary_concern": "BP elevation in newly transferred patient with critically incomplete EHR.",
+    "recommended_actions": [
+      "Expedite record transfer - URGENT",
+      "Obtain complete medication list from patient",
+      "Schedule urgent review within 48h"
+    ],
+    "confidence": 0.62
+  }
+}

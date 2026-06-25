@@ -1,0 +1,37 @@
+{
+  "patient_id": "P009",
+  "intake_date": "2026-06-24",
+  "chief_complaint": "I stopped taking my blood pressure pill about 10 days ago because it was making me cough all the time.",
+  "medication_adherence": {
+    "status": "Missed doses this week",
+    "detail": "Patient missed doses this week."
+  },
+  "review_of_systems": {
+    "cardiovascular": "No chest pain",
+    "respiratory": "No cough",
+    "general": "Feeling well"
+  },
+  "lifestyle_factors": {
+    "physical_activity": "No exercise",
+    "diet": "High salt, daughter cooks",
+    "alcohol": "Occasional",
+    "smoking": "Never"
+  },
+  "family_history": "Father had heart attack at 65",
+  "patient_concerns": "Worried condition is worsening",
+  "symptom_diary": [
+    {
+      "date": "2026-06-18",
+      "entry": "Symptoms started. I stopped taking my blood pressure pill about 10 days ago because it was making me cough all the time."
+    },
+    {
+      "date": "2026-06-22",
+      "entry": "Symptoms persisting. Took medication but not feeling better."
+    },
+    {
+      "date": "2026-06-24",
+      "entry": "Still not right. Decided to contact clinic."
+    }
+  ],
+  "generated_note": "SIMULATED DATA - NOT REAL PATIENT RECORD"
+}

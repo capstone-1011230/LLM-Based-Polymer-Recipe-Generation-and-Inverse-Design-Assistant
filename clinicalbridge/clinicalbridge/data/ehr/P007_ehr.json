@@ -1,0 +1,187 @@
+{
+  "patient_id": "P007",
+  "patient_info": {
+    "name": "Susan Park",
+    "age": 45,
+    "sex": "F",
+    "mrn": "MRN-P007-2019",
+    "primary_care_physician": "Dr. Nakamura"
+  },
+  "problem_list": [
+    {
+      "condition": "Type1 Diabetes",
+      "icd10": "E10.9",
+      "onset_date": "2024-09-23",
+      "status": "Active",
+      "severity": "Moderate"
+    },
+    {
+      "condition": "Hypertension",
+      "icd10": "I10",
+      "onset_date": "2016-10-02",
+      "status": "Active",
+      "severity": "Moderate"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Insulin Aspart",
+      "dose": "variable",
+      "frequency": "Twice daily",
+      "prescribed_date": "2025-04-29",
+      "prescribing_physician": "Dr. Nakamura",
+      "status": "Active"
+    },
+    {
+      "name": "Insulin Glargine",
+      "dose": "20 units",
+      "frequency": "Once daily",
+      "prescribed_date": "2024-09-14",
+      "prescribing_physician": "Dr. Williams",
+      "status": "Active"
+    },
+    {
+      "name": "Losartan",
+      "dose": "50mg",
+      "frequency": "As needed",
+      "prescribed_date": "2025-02-20",
+      "prescribing_physician": "Dr. Patel",
+      "status": "Active"
+    }
+  ],
+  "allergies": [
+    {
+      "allergen": "ACE Inhibitors",
+      "reaction": "Persistent cough",
+      "severity": "Mild"
+    }
+  ],
+  "lab_results": [
+    {
+      "test": "Potassium",
+      "value": 3.7,
+      "unit": "mEq/L",
+      "date": "2026-06-18",
+      "status": "Normal"
+    },
+    {
+      "test": "HbA1c",
+      "value": 6.8,
+      "unit": "%",
+      "date": "2026-06-15",
+      "status": "Abnormal"
+    },
+    {
+      "test": "Creatinine",
+      "value": 1.74,
+      "unit": "mg/dL",
+      "date": "2026-06-14",
+      "status": "Normal"
+    },
+    {
+      "test": "Potassium",
+      "value": 4.7,
+      "unit": "mEq/L",
+      "date": "2026-05-26",
+      "status": "Normal"
+    },
+    {
+      "test": "Creatinine",
+      "value": 1.73,
+      "unit": "mg/dL",
+      "date": "2026-05-25",
+      "status": "Normal"
+    },
+    {
+      "test": "HbA1c",
+      "value": 7.9,
+      "unit": "%",
+      "date": "2026-05-22",
+      "status": "Normal"
+    },
+    {
+      "test": "HbA1c",
+      "value": 8.5,
+      "unit": "%",
+      "date": "2026-03-27",
+      "status": "Abnormal"
+    },
+    {
+      "test": "Potassium",
+      "value": 4.5,
+      "unit": "mEq/L",
+      "date": "2026-03-25",
+      "status": "Normal"
+    },
+    {
+      "test": "Creatinine",
+      "value": 1.62,
+      "unit": "mg/dL",
+      "date": "2026-03-22",
+      "status": "Normal"
+    }
+  ],
+  "visit_notes": [
+    {
+      "date": "2026-03-29",
+      "provider": "Dr. Williams",
+      "type": "Annual Review",
+      "note": "Patient presents for type1 diabetes follow-up. BP 131/95. Continue current regimen.",
+      "vital_signs": {
+        "bp": "153/92",
+        "hr": 93,
+        "weight_kg": 66.5,
+        "spo2": 100
+      }
+    },
+    {
+      "date": "2026-02-18",
+      "provider": "Dr. Patel",
+      "type": "Follow-up",
+      "note": "Patient presents for type1 diabetes follow-up. BP 177/102. Continue current regimen.",
+      "vital_signs": {
+        "bp": "148/82",
+        "hr": 101,
+        "weight_kg": 113.2,
+        "spo2": 96
+      }
+    },
+    {
+      "date": "2025-12-14",
+      "provider": "Dr. Nakamura",
+      "type": "Urgent Visit",
+      "note": "Patient presents for type1 diabetes follow-up. BP 133/99. Continue current regimen.",
+      "vital_signs": {
+        "bp": "138/102",
+        "hr": 89,
+        "weight_kg": 71.0,
+        "spo2": 95
+      }
+    },
+    {
+      "date": "2025-11-10",
+      "provider": "Dr. Williams",
+      "type": "Annual Review",
+      "note": "Patient presents for type1 diabetes follow-up. BP 128/96. Continue current regimen.",
+      "vital_signs": {
+        "bp": "143/92",
+        "hr": 78,
+        "weight_kg": 95.7,
+        "spo2": 95
+      }
+    },
+    {
+      "date": "2025-09-08",
+      "provider": "Dr. Patel",
+      "type": "Annual Review",
+      "note": "Patient presents for type1 diabetes follow-up. BP 124/97. Continue current regimen.",
+      "vital_signs": {
+        "bp": "154/89",
+        "hr": 77,
+        "weight_kg": 106.8,
+        "spo2": 99
+      }
+    }
+  ],
+  "generated_note": "SIMULATED DATA - NOT REAL PATIENT RECORD"
+}

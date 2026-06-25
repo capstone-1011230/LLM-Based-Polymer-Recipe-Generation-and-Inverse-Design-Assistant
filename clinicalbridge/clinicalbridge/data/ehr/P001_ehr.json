@@ -1,0 +1,178 @@
+{
+  "patient_id": "P001",
+  "patient_info": {
+    "name": "Margaret Sullivan",
+    "age": 68,
+    "sex": "F",
+    "mrn": "MRN-P001-2019",
+    "primary_care_physician": "Dr. Nakamura"
+  },
+  "problem_list": [
+    {
+      "condition": "Hypertension",
+      "icd10": "I10",
+      "onset_date": "2018-04-24",
+      "status": "Active",
+      "severity": "Mild"
+    },
+    {
+      "condition": "Heart Failure",
+      "icd10": "I50.9",
+      "onset_date": "2025-03-15",
+      "status": "Active",
+      "severity": "Moderate"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Lisinopril",
+      "dose": "10mg",
+      "frequency": "Once daily",
+      "prescribed_date": "2025-10-10",
+      "prescribing_physician": "Dr. Williams",
+      "status": "Active"
+    },
+    {
+      "name": "Furosemide",
+      "dose": "40mg",
+      "frequency": "As needed",
+      "prescribed_date": "2026-02-11",
+      "prescribing_physician": "Dr. Nakamura",
+      "status": "Active"
+    },
+    {
+      "name": "Metoprolol",
+      "dose": "50mg",
+      "frequency": "As needed",
+      "prescribed_date": "2024-11-14",
+      "prescribing_physician": "Dr. Williams",
+      "status": "Active"
+    }
+  ],
+  "allergies": [
+    {
+      "allergen": "ACE Inhibitors",
+      "reaction": "Persistent cough",
+      "severity": "Mild"
+    }
+  ],
+  "lab_results": [
+    {
+      "test": "Creatinine",
+      "value": 0.97,
+      "unit": "mg/dL",
+      "date": "2026-06-16",
+      "status": "Normal"
+    },
+    {
+      "test": "Potassium",
+      "value": 4.6,
+      "unit": "mEq/L",
+      "date": "2026-06-13",
+      "status": "Normal"
+    },
+    {
+      "test": "Creatinine",
+      "value": 1.53,
+      "unit": "mg/dL",
+      "date": "2026-05-24",
+      "status": "Normal"
+    },
+    {
+      "test": "Potassium",
+      "value": 3.7,
+      "unit": "mEq/L",
+      "date": "2026-05-24",
+      "status": "Normal"
+    },
+    {
+      "test": "Creatinine",
+      "value": 1.0,
+      "unit": "mg/dL",
+      "date": "2026-03-27",
+      "status": "Normal"
+    },
+    {
+      "test": "Potassium",
+      "value": 4.1,
+      "unit": "mEq/L",
+      "date": "2026-03-24",
+      "status": "Normal"
+    }
+  ],
+  "visit_notes": [
+    {
+      "date": "2026-02-06",
+      "provider": "Dr. Patel",
+      "type": "Urgent Visit",
+      "note": "Patient presents for hypertension follow-up. BP 158/88. Continue current regimen.",
+      "vital_signs": {
+        "bp": "171/81",
+        "hr": 104,
+        "weight_kg": 85.3,
+        "spo2": 94
+      }
+    },
+    {
+      "date": "2026-02-04",
+      "provider": "Dr. Nakamura",
+      "type": "Urgent Visit",
+      "note": "Patient presents for hypertension follow-up. BP 141/88. Continue current regimen.",
+      "vital_signs": {
+        "bp": "129/86",
+        "hr": 79,
+        "weight_kg": 65.6,
+        "spo2": 97
+      }
+    },
+    {
+      "date": "2025-11-21",
+      "provider": "Dr. Williams",
+      "type": "Follow-up",
+      "note": "Patient presents for hypertension follow-up. BP 125/86. Continue current regimen.",
+      "vital_signs": {
+        "bp": "134/96",
+        "hr": 96,
+        "weight_kg": 61.5,
+        "spo2": 95
+      }
+    },
+    {
+      "date": "2025-09-01",
+      "provider": "Dr. Williams",
+      "type": "Annual Review",
+      "note": "Patient presents for hypertension follow-up. BP 124/81. Continue current regimen.",
+      "vital_signs": {
+        "bp": "162/87",
+        "hr": 76,
+        "weight_kg": 114.2,
+        "spo2": 100
+      }
+    },
+    {
+      "date": "2025-07-04",
+      "provider": "Dr. Patel",
+      "type": "Follow-up",
+      "note": "Patient presents for hypertension follow-up. BP 155/89. Continue current regimen.",
+      "vital_signs": {
+        "bp": "173/100",
+        "hr": 97,
+        "weight_kg": 108.7,
+        "spo2": 96
+      }
+    },
+    {
+      "date": "2025-06-28",
+      "provider": "Dr. Nakamura",
+      "type": "Annual Review",
+      "note": "Patient presents for hypertension follow-up. BP 146/87. Continue current regimen.",
+      "vital_signs": {
+        "bp": "148/98",
+        "hr": 75,
+        "weight_kg": 104.5,
+        "spo2": 94
+      }
+    }
+  ],
+  "generated_note": "SIMULATED DATA - NOT REAL PATIENT RECORD"
+}

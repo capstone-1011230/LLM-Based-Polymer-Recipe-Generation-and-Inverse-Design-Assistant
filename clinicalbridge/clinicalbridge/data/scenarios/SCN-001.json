@@ -1,0 +1,34 @@
+{
+  "scenario_id": "SCN-001",
+  "title": "The Missed Medication",
+  "patient_id": "P001",
+  "description": "Hypertensive patient BP spikes. Anamnesis reveals stopped ACE inhibitor due to cough.",
+  "triggering_alert": {
+    "alert_type": "CRITICAL_BP",
+    "measured_values": {
+      "systolic": 178,
+      "diastolic": 108
+    },
+    "consecutive_high_readings": 6,
+    "alert_message": "Critical BP 178/108 mmHg, 6 consecutive high readings."
+  },
+  "key_ehr_facts": [
+    "Active diagnosis: Hypertension (I10)",
+    "Current medication: Lisinopril 10mg daily",
+    "Last visit: BP well-controlled at 128/82 two months ago"
+  ],
+  "key_anamnesis_facts": [
+    "Patient stopped Lisinopril 10 days ago due to persistent dry cough",
+    "Reports morning headaches for 1 week"
+  ],
+  "expected_urgency": "URGENT",
+  "gold_standard_brief": {
+    "primary_concern": "Hypertensive urgency secondary to self-discontinuation of ACE inhibitor due to cough side effect.",
+    "recommended_actions": [
+      "Contact patient immediately",
+      "Switch to ARB (e.g. Losartan)",
+      "Recheck BP in 24-48 hours"
+    ],
+    "confidence": 0.91
+  }
+}

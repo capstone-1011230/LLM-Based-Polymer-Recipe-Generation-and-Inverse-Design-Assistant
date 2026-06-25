@@ -1,0 +1,154 @@
+{
+  "patient_id": "P005",
+  "patient_info": {
+    "name": "Patricia Novak",
+    "age": 58,
+    "sex": "F",
+    "mrn": "MRN-P005-2019",
+    "primary_care_physician": "Dr. Patel"
+  },
+  "problem_list": [
+    {
+      "condition": "Hypertension",
+      "icd10": "I10",
+      "onset_date": "2016-10-19",
+      "status": "Active",
+      "severity": "Moderate"
+    },
+    {
+      "condition": "Asthma",
+      "icd10": "J45.909",
+      "onset_date": "2016-08-21",
+      "status": "Active",
+      "severity": "Mild"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Amlodipine",
+      "dose": "5mg",
+      "frequency": "Twice daily",
+      "prescribed_date": "2025-12-29",
+      "prescribing_physician": "Dr. Williams",
+      "status": "Active"
+    },
+    {
+      "name": "Salbutamol",
+      "dose": "2 puffs PRN",
+      "frequency": "As needed",
+      "prescribed_date": "2025-09-12",
+      "prescribing_physician": "Dr. Williams",
+      "status": "Active"
+    },
+    {
+      "name": "Budesonide",
+      "dose": "200mcg",
+      "frequency": "Once daily",
+      "prescribed_date": "2024-07-19",
+      "prescribing_physician": "Dr. Williams",
+      "status": "Active"
+    }
+  ],
+  "allergies": [
+    {
+      "allergen": "ACE Inhibitors",
+      "reaction": "Persistent cough",
+      "severity": "Mild"
+    }
+  ],
+  "lab_results": [
+    {
+      "test": "Creatinine",
+      "value": 1.41,
+      "unit": "mg/dL",
+      "date": "2026-06-16",
+      "status": "Normal"
+    },
+    {
+      "test": "Potassium",
+      "value": 4.1,
+      "unit": "mEq/L",
+      "date": "2026-06-14",
+      "status": "Normal"
+    },
+    {
+      "test": "Creatinine",
+      "value": 0.79,
+      "unit": "mg/dL",
+      "date": "2026-05-24",
+      "status": "Normal"
+    },
+    {
+      "test": "Potassium",
+      "value": 4.4,
+      "unit": "mEq/L",
+      "date": "2026-05-22",
+      "status": "Normal"
+    },
+    {
+      "test": "Creatinine",
+      "value": 0.8,
+      "unit": "mg/dL",
+      "date": "2026-03-27",
+      "status": "Normal"
+    },
+    {
+      "test": "Potassium",
+      "value": 4.0,
+      "unit": "mEq/L",
+      "date": "2026-03-26",
+      "status": "Normal"
+    }
+  ],
+  "visit_notes": [
+    {
+      "date": "2026-06-18",
+      "provider": "Dr. Patel",
+      "type": "Follow-up",
+      "note": "Patient presents for hypertension follow-up. BP 157/90. Continue current regimen.",
+      "vital_signs": {
+        "bp": "121/85",
+        "hr": 74,
+        "weight_kg": 62.9,
+        "spo2": 99
+      }
+    },
+    {
+      "date": "2026-03-12",
+      "provider": "Dr. Williams",
+      "type": "Urgent Visit",
+      "note": "Patient presents for hypertension follow-up. BP 174/92. Continue current regimen.",
+      "vital_signs": {
+        "bp": "147/101",
+        "hr": 64,
+        "weight_kg": 87.0,
+        "spo2": 97
+      }
+    },
+    {
+      "date": "2025-10-23",
+      "provider": "Dr. Nakamura",
+      "type": "Follow-up",
+      "note": "Patient presents for hypertension follow-up. BP 167/82. Continue current regimen.",
+      "vital_signs": {
+        "bp": "150/94",
+        "hr": 81,
+        "weight_kg": 88.2,
+        "spo2": 94
+      }
+    },
+    {
+      "date": "2025-09-07",
+      "provider": "Dr. Nakamura",
+      "type": "Follow-up",
+      "note": "Patient presents for hypertension follow-up. BP 180/99. Continue current regimen.",
+      "vital_signs": {
+        "bp": "122/103",
+        "hr": 100,
+        "weight_kg": 88.7,
+        "spo2": 97
+      }
+    }
+  ],
+  "generated_note": "SIMULATED DATA - NOT REAL PATIENT RECORD"
+}

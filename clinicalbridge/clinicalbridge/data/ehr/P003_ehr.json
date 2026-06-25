@@ -1,0 +1,187 @@
+{
+  "patient_id": "P003",
+  "patient_info": {
+    "name": "Eleanor Vasquez",
+    "age": 72,
+    "sex": "F",
+    "mrn": "MRN-P003-2019",
+    "primary_care_physician": "Dr. Patel"
+  },
+  "problem_list": [
+    {
+      "condition": "Heart Failure",
+      "icd10": "I50.9",
+      "onset_date": "2021-01-24",
+      "status": "Active",
+      "severity": "Mild"
+    },
+    {
+      "condition": "Atrial Fibrillation",
+      "icd10": "I48.91",
+      "onset_date": "2024-07-17",
+      "status": "Active",
+      "severity": "Severe"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Warfarin",
+      "dose": "5mg",
+      "frequency": "Once daily",
+      "prescribed_date": "2025-02-08",
+      "prescribing_physician": "Dr. Williams",
+      "status": "Active"
+    },
+    {
+      "name": "Digoxin",
+      "dose": "0.125mg",
+      "frequency": "Once daily",
+      "prescribed_date": "2025-09-02",
+      "prescribing_physician": "Dr. Patel",
+      "status": "Active"
+    },
+    {
+      "name": "Furosemide",
+      "dose": "40mg",
+      "frequency": "Twice daily",
+      "prescribed_date": "2025-10-22",
+      "prescribing_physician": "Dr. Patel",
+      "status": "Active"
+    }
+  ],
+  "allergies": [
+    {
+      "allergen": "ACE Inhibitors",
+      "reaction": "Persistent cough",
+      "severity": "Mild"
+    }
+  ],
+  "lab_results": [
+    {
+      "test": "Potassium",
+      "value": 4.7,
+      "unit": "mEq/L",
+      "date": "2026-06-16",
+      "status": "Normal"
+    },
+    {
+      "test": "Creatinine",
+      "value": 0.86,
+      "unit": "mg/dL",
+      "date": "2026-06-14",
+      "status": "Normal"
+    },
+    {
+      "test": "INR",
+      "value": 2.5,
+      "unit": "ratio",
+      "date": "2026-06-13",
+      "status": "Normal"
+    },
+    {
+      "test": "Creatinine",
+      "value": 1.47,
+      "unit": "mg/dL",
+      "date": "2026-05-21",
+      "status": "Normal"
+    },
+    {
+      "test": "Potassium",
+      "value": 3.9,
+      "unit": "mEq/L",
+      "date": "2026-05-21",
+      "status": "Normal"
+    },
+    {
+      "test": "INR",
+      "value": 3.0,
+      "unit": "ratio",
+      "date": "2026-05-21",
+      "status": "Abnormal"
+    },
+    {
+      "test": "Potassium",
+      "value": 4.5,
+      "unit": "mEq/L",
+      "date": "2026-03-24",
+      "status": "Normal"
+    },
+    {
+      "test": "Creatinine",
+      "value": 1.91,
+      "unit": "mg/dL",
+      "date": "2026-03-23",
+      "status": "Normal"
+    },
+    {
+      "test": "INR",
+      "value": 2.2,
+      "unit": "ratio",
+      "date": "2026-03-22",
+      "status": "Normal"
+    }
+  ],
+  "visit_notes": [
+    {
+      "date": "2026-05-17",
+      "provider": "Dr. Nakamura",
+      "type": "Annual Review",
+      "note": "Patient presents for heart failure follow-up. BP 123/110. Continue current regimen.",
+      "vital_signs": {
+        "bp": "142/87",
+        "hr": 99,
+        "weight_kg": 63.8,
+        "spo2": 99
+      }
+    },
+    {
+      "date": "2026-04-06",
+      "provider": "Dr. Williams",
+      "type": "Follow-up",
+      "note": "Patient presents for heart failure follow-up. BP 132/106. Continue current regimen.",
+      "vital_signs": {
+        "bp": "121/99",
+        "hr": 67,
+        "weight_kg": 73.1,
+        "spo2": 97
+      }
+    },
+    {
+      "date": "2026-01-28",
+      "provider": "Dr. Nakamura",
+      "type": "Follow-up",
+      "note": "Patient presents for heart failure follow-up. BP 149/102. Continue current regimen.",
+      "vital_signs": {
+        "bp": "136/104",
+        "hr": 81,
+        "weight_kg": 69.2,
+        "spo2": 98
+      }
+    },
+    {
+      "date": "2026-01-04",
+      "provider": "Dr. Patel",
+      "type": "Urgent Visit",
+      "note": "Patient presents for heart failure follow-up. BP 168/110. Continue current regimen.",
+      "vital_signs": {
+        "bp": "173/93",
+        "hr": 74,
+        "weight_kg": 105.9,
+        "spo2": 97
+      }
+    },
+    {
+      "date": "2025-08-18",
+      "provider": "Dr. Nakamura",
+      "type": "Follow-up",
+      "note": "Patient presents for heart failure follow-up. BP 169/106. Continue current regimen.",
+      "vital_signs": {
+        "bp": "130/110",
+        "hr": 77,
+        "weight_kg": 65.9,
+        "spo2": 94
+      }
+    }
+  ],
+  "generated_note": "SIMULATED DATA - NOT REAL PATIENT RECORD"
+}

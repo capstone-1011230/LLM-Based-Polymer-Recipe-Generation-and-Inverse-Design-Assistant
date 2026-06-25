@@ -1,0 +1,160 @@
+{
+  "patient_id": "P004",
+  "patient_info": {
+    "name": "James Okonkwo",
+    "age": 61,
+    "sex": "M",
+    "mrn": "MRN-P004-2019",
+    "primary_care_physician": "Dr. Nakamura"
+  },
+  "problem_list": [
+    {
+      "condition": "Type2 Diabetes",
+      "icd10": "E11.9",
+      "onset_date": "2020-07-27",
+      "status": "Active",
+      "severity": "Severe"
+    },
+    {
+      "condition": "Chronic Kidney Disease",
+      "icd10": "N18.3",
+      "onset_date": "2024-02-14",
+      "status": "Active",
+      "severity": "Mild"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Insulin Glargine",
+      "dose": "20 units",
+      "frequency": "As needed",
+      "prescribed_date": "2024-09-10",
+      "prescribing_physician": "Dr. Williams",
+      "status": "Active"
+    },
+    {
+      "name": "Lisinopril",
+      "dose": "10mg",
+      "frequency": "As needed",
+      "prescribed_date": "2025-12-15",
+      "prescribing_physician": "Dr. Patel",
+      "status": "Active"
+    },
+    {
+      "name": "Erythropoietin",
+      "dose": "4000 units SC 3x/week",
+      "frequency": "As needed",
+      "prescribed_date": "2026-05-12",
+      "prescribing_physician": "Dr. Nakamura",
+      "status": "Active"
+    }
+  ],
+  "allergies": [],
+  "lab_results": [
+    {
+      "test": "Creatinine",
+      "value": 1.23,
+      "unit": "mg/dL",
+      "date": "2026-06-16",
+      "status": "Normal"
+    },
+    {
+      "test": "HbA1c",
+      "value": 9.5,
+      "unit": "%",
+      "date": "2026-06-13",
+      "status": "Abnormal"
+    },
+    {
+      "test": "Creatinine",
+      "value": 1.98,
+      "unit": "mg/dL",
+      "date": "2026-05-25",
+      "status": "Normal"
+    },
+    {
+      "test": "HbA1c",
+      "value": 8.8,
+      "unit": "%",
+      "date": "2026-05-25",
+      "status": "Abnormal"
+    },
+    {
+      "test": "HbA1c",
+      "value": 8.3,
+      "unit": "%",
+      "date": "2026-03-25",
+      "status": "Abnormal"
+    },
+    {
+      "test": "Creatinine",
+      "value": 1.69,
+      "unit": "mg/dL",
+      "date": "2026-03-24",
+      "status": "Normal"
+    }
+  ],
+  "visit_notes": [
+    {
+      "date": "2026-05-09",
+      "provider": "Dr. Williams",
+      "type": "Follow-up",
+      "note": "Patient presents for type2 diabetes follow-up. BP 149/110. Continue current regimen.",
+      "vital_signs": {
+        "bp": "127/100",
+        "hr": 67,
+        "weight_kg": 87.4,
+        "spo2": 99
+      }
+    },
+    {
+      "date": "2026-02-11",
+      "provider": "Dr. Patel",
+      "type": "Follow-up",
+      "note": "Patient presents for type2 diabetes follow-up. BP 178/99. Continue current regimen.",
+      "vital_signs": {
+        "bp": "152/103",
+        "hr": 66,
+        "weight_kg": 107.5,
+        "spo2": 96
+      }
+    },
+    {
+      "date": "2025-12-28",
+      "provider": "Dr. Nakamura",
+      "type": "Annual Review",
+      "note": "Patient presents for type2 diabetes follow-up. BP 137/93. Continue current regimen.",
+      "vital_signs": {
+        "bp": "173/95",
+        "hr": 88,
+        "weight_kg": 73.4,
+        "spo2": 98
+      }
+    },
+    {
+      "date": "2025-09-30",
+      "provider": "Dr. Nakamura",
+      "type": "Urgent Visit",
+      "note": "Patient presents for type2 diabetes follow-up. BP 175/84. Continue current regimen.",
+      "vital_signs": {
+        "bp": "148/97",
+        "hr": 88,
+        "weight_kg": 79.0,
+        "spo2": 98
+      }
+    },
+    {
+      "date": "2025-08-27",
+      "provider": "Dr. Patel",
+      "type": "Annual Review",
+      "note": "Patient presents for type2 diabetes follow-up. BP 137/106. Continue current regimen.",
+      "vital_signs": {
+        "bp": "120/89",
+        "hr": 104,
+        "weight_kg": 76.4,
+        "spo2": 98
+      }
+    }
+  ],
+  "generated_note": "SIMULATED DATA - NOT REAL PATIENT RECORD"
+}

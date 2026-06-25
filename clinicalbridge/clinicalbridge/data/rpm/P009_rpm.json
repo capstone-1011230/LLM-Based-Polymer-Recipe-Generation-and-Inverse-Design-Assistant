@@ -1,0 +1,483 @@
+{
+  "patient_id": "P009",
+  "readings": [
+    {
+      "timestamp": "2026-06-11T07:23:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 135,
+        "diastolic": 88
+      },
+      "heart_rate_bpm": 59,
+      "glucose_mg_dl": 162,
+      "spo2_percent": 97
+    },
+    {
+      "timestamp": "2026-06-11T13:47:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 129,
+        "diastolic": 82
+      },
+      "heart_rate_bpm": 66,
+      "glucose_mg_dl": 160,
+      "spo2_percent": 100
+    },
+    {
+      "timestamp": "2026-06-11T21:37:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 138,
+        "diastolic": 86
+      },
+      "heart_rate_bpm": 62,
+      "glucose_mg_dl": 115,
+      "spo2_percent": 98
+    },
+    {
+      "timestamp": "2026-06-12T07:14:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 137,
+        "diastolic": 91
+      },
+      "heart_rate_bpm": 84,
+      "glucose_mg_dl": 121,
+      "spo2_percent": 99
+    },
+    {
+      "timestamp": "2026-06-12T13:35:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 145,
+        "diastolic": 92
+      },
+      "heart_rate_bpm": 68,
+      "glucose_mg_dl": 122,
+      "spo2_percent": 99
+    },
+    {
+      "timestamp": "2026-06-12T21:46:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 145,
+        "diastolic": 89
+      },
+      "heart_rate_bpm": 72,
+      "glucose_mg_dl": 111,
+      "spo2_percent": 98
+    },
+    {
+      "timestamp": "2026-06-13T07:10:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 129,
+        "diastolic": 90
+      },
+      "heart_rate_bpm": 73,
+      "glucose_mg_dl": 113,
+      "spo2_percent": 100
+    },
+    {
+      "timestamp": "2026-06-13T13:41:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 126,
+        "diastolic": 90
+      },
+      "heart_rate_bpm": 59,
+      "glucose_mg_dl": 99,
+      "spo2_percent": 96
+    },
+    {
+      "timestamp": "2026-06-13T21:48:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 125,
+        "diastolic": 88
+      },
+      "heart_rate_bpm": 62,
+      "glucose_mg_dl": 170,
+      "spo2_percent": 97
+    },
+    {
+      "timestamp": "2026-06-14T07:04:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 129,
+        "diastolic": 82
+      },
+      "heart_rate_bpm": 64,
+      "glucose_mg_dl": 154,
+      "spo2_percent": 99
+    },
+    {
+      "timestamp": "2026-06-14T13:23:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 126,
+        "diastolic": 91
+      },
+      "heart_rate_bpm": 78,
+      "glucose_mg_dl": 175,
+      "spo2_percent": 100
+    },
+    {
+      "timestamp": "2026-06-14T21:58:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 140,
+        "diastolic": 92
+      },
+      "heart_rate_bpm": 73,
+      "glucose_mg_dl": 92,
+      "spo2_percent": 96
+    },
+    {
+      "timestamp": "2026-06-15T07:34:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 142,
+        "diastolic": 88
+      },
+      "heart_rate_bpm": 58,
+      "glucose_mg_dl": 92,
+      "spo2_percent": 100
+    },
+    {
+      "timestamp": "2026-06-15T13:46:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 133,
+        "diastolic": 90
+      },
+      "heart_rate_bpm": 67,
+      "glucose_mg_dl": 92,
+      "spo2_percent": 100
+    },
+    {
+      "timestamp": "2026-06-15T21:52:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 138,
+        "diastolic": 84
+      },
+      "heart_rate_bpm": 61,
+      "glucose_mg_dl": 102,
+      "spo2_percent": 100
+    },
+    {
+      "timestamp": "2026-06-16T07:09:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 132,
+        "diastolic": 85
+      },
+      "heart_rate_bpm": 77,
+      "glucose_mg_dl": 157,
+      "spo2_percent": 98
+    },
+    {
+      "timestamp": "2026-06-16T13:52:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 136,
+        "diastolic": 86
+      },
+      "heart_rate_bpm": 83,
+      "glucose_mg_dl": 140,
+      "spo2_percent": 96
+    },
+    {
+      "timestamp": "2026-06-16T21:23:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 137,
+        "diastolic": 89
+      },
+      "heart_rate_bpm": 76,
+      "glucose_mg_dl": 121,
+      "spo2_percent": 97
+    },
+    {
+      "timestamp": "2026-06-17T07:19:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 127,
+        "diastolic": 92
+      },
+      "heart_rate_bpm": 85,
+      "glucose_mg_dl": 173,
+      "spo2_percent": 96
+    },
+    {
+      "timestamp": "2026-06-17T13:05:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 137,
+        "diastolic": 88
+      },
+      "heart_rate_bpm": 70,
+      "glucose_mg_dl": 160,
+      "spo2_percent": 99
+    },
+    {
+      "timestamp": "2026-06-17T21:03:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 145,
+        "diastolic": 82
+      },
+      "heart_rate_bpm": 80,
+      "glucose_mg_dl": 111,
+      "spo2_percent": 96
+    },
+    {
+      "timestamp": "2026-06-18T07:31:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 138,
+        "diastolic": 92
+      },
+      "heart_rate_bpm": 83,
+      "glucose_mg_dl": 132,
+      "spo2_percent": 100
+    },
+    {
+      "timestamp": "2026-06-18T13:54:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 128,
+        "diastolic": 90
+      },
+      "heart_rate_bpm": 87,
+      "glucose_mg_dl": 95,
+      "spo2_percent": 97
+    },
+    {
+      "timestamp": "2026-06-18T21:13:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 143,
+        "diastolic": 89
+      },
+      "heart_rate_bpm": 66,
+      "glucose_mg_dl": 95,
+      "spo2_percent": 96
+    },
+    {
+      "timestamp": "2026-06-19T07:43:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 133,
+        "diastolic": 90
+      },
+      "heart_rate_bpm": 76,
+      "glucose_mg_dl": 174,
+      "spo2_percent": 96
+    },
+    {
+      "timestamp": "2026-06-19T13:11:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 135,
+        "diastolic": 82
+      },
+      "heart_rate_bpm": 88,
+      "glucose_mg_dl": 116,
+      "spo2_percent": 100
+    },
+    {
+      "timestamp": "2026-06-19T21:09:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 137,
+        "diastolic": 83
+      },
+      "heart_rate_bpm": 67,
+      "glucose_mg_dl": 110,
+      "spo2_percent": 100
+    },
+    {
+      "timestamp": "2026-06-20T07:15:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 143,
+        "diastolic": 88
+      },
+      "heart_rate_bpm": 79,
+      "glucose_mg_dl": 159,
+      "spo2_percent": 98
+    },
+    {
+      "timestamp": "2026-06-20T13:24:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 129,
+        "diastolic": 83
+      },
+      "heart_rate_bpm": 74,
+      "glucose_mg_dl": 134,
+      "spo2_percent": 96
+    },
+    {
+      "timestamp": "2026-06-20T21:06:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 138,
+        "diastolic": 85
+      },
+      "heart_rate_bpm": 84,
+      "glucose_mg_dl": 99,
+      "spo2_percent": 98
+    },
+    {
+      "timestamp": "2026-06-21T07:38:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 144,
+        "diastolic": 91
+      },
+      "heart_rate_bpm": 70,
+      "glucose_mg_dl": 131,
+      "spo2_percent": 96
+    },
+    {
+      "timestamp": "2026-06-21T13:40:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 133,
+        "diastolic": 89
+      },
+      "heart_rate_bpm": 73,
+      "glucose_mg_dl": 119,
+      "spo2_percent": 98
+    },
+    {
+      "timestamp": "2026-06-21T21:35:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 137,
+        "diastolic": 88
+      },
+      "heart_rate_bpm": 63,
+      "glucose_mg_dl": 177,
+      "spo2_percent": 100
+    },
+    {
+      "timestamp": "2026-06-22T07:42:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 137,
+        "diastolic": 83
+      },
+      "heart_rate_bpm": 82,
+      "glucose_mg_dl": 248,
+      "spo2_percent": 98
+    },
+    {
+      "timestamp": "2026-06-22T13:51:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 132,
+        "diastolic": 83
+      },
+      "heart_rate_bpm": 60,
+      "glucose_mg_dl": 158,
+      "spo2_percent": 97
+    },
+    {
+      "timestamp": "2026-06-22T21:24:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 145,
+        "diastolic": 84
+      },
+      "heart_rate_bpm": 81,
+      "glucose_mg_dl": 189,
+      "spo2_percent": 98
+    },
+    {
+      "timestamp": "2026-06-23T07:23:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 158,
+        "diastolic": 97
+      },
+      "heart_rate_bpm": 58,
+      "glucose_mg_dl": 168,
+      "spo2_percent": 99
+    },
+    {
+      "timestamp": "2026-06-23T13:23:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 179,
+        "diastolic": 103
+      },
+      "heart_rate_bpm": 61,
+      "glucose_mg_dl": 123,
+      "spo2_percent": 96
+    },
+    {
+      "timestamp": "2026-06-23T21:11:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 168,
+        "diastolic": 109
+      },
+      "heart_rate_bpm": 75,
+      "glucose_mg_dl": 232,
+      "spo2_percent": 100
+    },
+    {
+      "timestamp": "2026-06-24T07:26:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 158,
+        "diastolic": 95
+      },
+      "heart_rate_bpm": 60,
+      "glucose_mg_dl": 180,
+      "spo2_percent": 100
+    },
+    {
+      "timestamp": "2026-06-24T13:05:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 174,
+        "diastolic": 114
+      },
+      "heart_rate_bpm": 83,
+      "glucose_mg_dl": 173,
+      "spo2_percent": 99
+    },
+    {
+      "timestamp": "2026-06-24T21:00:00",
+      "patient_id": "P009",
+      "blood_pressure": {
+        "systolic": 164,
+        "diastolic": 108
+      },
+      "heart_rate_bpm": 70,
+      "glucose_mg_dl": 289,
+      "spo2_percent": 96
+    }
+  ],
+  "active_alert": {
+    "alert_id": "ALT-P009",
+    "patient_id": "P009",
+    "timestamp": "2026-06-24T21:00:00",
+    "device_type": "CGM",
+    "alert_type": "HIGH_GLUCOSE",
+    "measured_values": {
+      "glucose_mg_dl": 289
+    },
+    "threshold_breached": "Glucose >= 250 mg/dL",
+    "patient_baseline": {
+      "glucose_mg_dl": 130
+    },
+    "alert_message": "High glucose 289 mg/dL detected."
+  },
+  "generated_note": "SIMULATED DATA - NOT REAL PATIENT RECORD"
+}

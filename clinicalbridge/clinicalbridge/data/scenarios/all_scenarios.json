@@ -1,0 +1,176 @@
+[
+  {
+    "scenario_id": "SCN-001",
+    "title": "The Missed Medication",
+    "patient_id": "P001",
+    "description": "Hypertensive patient BP spikes. Anamnesis reveals stopped ACE inhibitor due to cough.",
+    "triggering_alert": {
+      "alert_type": "CRITICAL_BP",
+      "measured_values": {
+        "systolic": 178,
+        "diastolic": 108
+      },
+      "consecutive_high_readings": 6,
+      "alert_message": "Critical BP 178/108 mmHg, 6 consecutive high readings."
+    },
+    "key_ehr_facts": [
+      "Active diagnosis: Hypertension (I10)",
+      "Current medication: Lisinopril 10mg daily",
+      "Last visit: BP well-controlled at 128/82 two months ago"
+    ],
+    "key_anamnesis_facts": [
+      "Patient stopped Lisinopril 10 days ago due to persistent dry cough",
+      "Reports morning headaches for 1 week"
+    ],
+    "expected_urgency": "URGENT",
+    "gold_standard_brief": {
+      "primary_concern": "Hypertensive urgency secondary to self-discontinuation of ACE inhibitor due to cough side effect.",
+      "recommended_actions": [
+        "Contact patient immediately",
+        "Switch to ARB (e.g. Losartan)",
+        "Recheck BP in 24-48 hours"
+      ],
+      "confidence": 0.91
+    }
+  },
+  {
+    "scenario_id": "SCN-002",
+    "title": "The False Alarm",
+    "patient_id": "P002",
+    "description": "Diabetic patient glucose alert. Anamnesis reveals planned dietary change - alert is benign.",
+    "triggering_alert": {
+      "alert_type": "HIGH_GLUCOSE",
+      "measured_values": {
+        "glucose_mg_dl": 267
+      },
+      "alert_message": "High glucose 267 mg/dL detected."
+    },
+    "key_ehr_facts": [
+      "Type 2 Diabetes (E11.9)",
+      "Metformin increased 5 days ago",
+      "Physician note: expect transient glucose fluctuation during titration"
+    ],
+    "key_anamnesis_facts": [
+      "Patient attended celebration dinner last night",
+      "Confirms full medication adherence",
+      "Fasting glucose this morning was 142 mg/dL"
+    ],
+    "expected_urgency": "ROUTINE",
+    "gold_standard_brief": {
+      "primary_concern": "Post-prandial glucose spike attributable to dietary deviation during medication titration. Likely benign.",
+      "recommended_actions": [
+        "No immediate intervention",
+        "Monitor next 3 fasting readings",
+        "Reinforce dietary counseling"
+      ],
+      "confidence": 0.87
+    }
+  },
+  {
+    "scenario_id": "SCN-003",
+    "title": "The Silent Deterioration",
+    "patient_id": "P006",
+    "description": "Heart failure patient gradual weight gain over 2 weeks. Trend suggests fluid retention.",
+    "triggering_alert": {
+      "alert_type": "WEIGHT_TREND",
+      "measured_values": {
+        "weight_kg": 89.4,
+        "baseline_weight_kg": 83.0,
+        "gain_kg": 6.4,
+        "period_days": 14
+      },
+      "alert_message": "Gradual weight gain 6.4 kg over 14 days."
+    },
+    "key_ehr_facts": [
+      "Heart Failure (I50.9)",
+      "Last BNP 450 pg/mL elevated",
+      "EF 35% on echo",
+      "Furosemide NOT currently prescribed"
+    ],
+    "key_anamnesis_facts": [
+      "Bilateral ankle swelling worsening 2 weeks",
+      "Shortness of breath walking to bathroom",
+      "Sleeping on 2 pillows instead of 1"
+    ],
+    "expected_urgency": "CRITICAL",
+    "gold_standard_brief": {
+      "primary_concern": "High suspicion acute decompensated heart failure with fluid retention.",
+      "recommended_actions": [
+        "Urgent clinical assessment within 24h",
+        "Consider initiating Furosemide",
+        "Order BNP and CXR",
+        "Consider ED if acutely dyspneic"
+      ],
+      "confidence": 0.94
+    }
+  },
+  {
+    "scenario_id": "SCN-004",
+    "title": "The Incomplete Record",
+    "patient_id": "P010",
+    "description": "Transferred patient. EHR sparse. System must rely on anamnesis and flag gaps.",
+    "triggering_alert": {
+      "alert_type": "CRITICAL_BP",
+      "measured_values": {
+        "systolic": 168,
+        "diastolic": 102
+      },
+      "alert_message": "Critical BP 168/102 mmHg in recently registered patient."
+    },
+    "key_ehr_facts": [
+      "EHR imported from external system - HIGH INCOMPLETENESS",
+      "Only available: Name, DOB, one medication (Ramipril 5mg)",
+      "No lab results, no visit notes"
+    ],
+    "key_anamnesis_facts": [
+      "Patient self-reports hypertension for 8 years",
+      "Also reports anxiety disorder on sertraline",
+      "Reports Ramipril causes dizziness - considering stopping"
+    ],
+    "expected_urgency": "URGENT",
+    "gold_standard_brief": {
+      "primary_concern": "BP elevation in newly transferred patient with critically incomplete EHR.",
+      "recommended_actions": [
+        "Expedite record transfer - URGENT",
+        "Obtain complete medication list from patient",
+        "Schedule urgent review within 48h"
+      ],
+      "confidence": 0.62
+    }
+  },
+  {
+    "scenario_id": "SCN-005",
+    "title": "The Conflicting Data",
+    "patient_id": "P003",
+    "description": "Patient reports full adherence but lab results show sub-therapeutic drug levels.",
+    "triggering_alert": {
+      "alert_type": "LOW_SPO2",
+      "measured_values": {
+        "spo2": 93
+      },
+      "alert_message": "SpO2 93% in atrial fibrillation patient on anticoagulation."
+    },
+    "key_ehr_facts": [
+      "Atrial Fibrillation (I48.91)",
+      "Warfarin 5mg daily",
+      "Last INR: 1.4 (sub-therapeutic, target 2.0-3.0)",
+      "Digoxin level: 0.6 ng/mL (sub-therapeutic)"
+    ],
+    "key_anamnesis_facts": [
+      "Patient insists she takes ALL medications exactly as prescribed",
+      "Denies any missed doses",
+      "Reports new fatigue and mild shortness of breath for 1 week"
+    ],
+    "expected_urgency": "URGENT",
+    "gold_standard_brief": {
+      "primary_concern": "Clinically significant discrepancy between reported adherence and sub-therapeutic drug levels. Elevated stroke risk.",
+      "recommended_actions": [
+        "Urgent INR recheck",
+        "Assess SpO2 for respiratory cause",
+        "Investigate INR drop non-accusatorily",
+        "Cardiology consultation"
+      ],
+      "confidence": 0.83
+    }
+  }
+]
